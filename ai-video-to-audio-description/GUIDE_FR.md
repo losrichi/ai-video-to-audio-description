@@ -14,18 +14,8 @@ Ce dépôt est un **vrai projet exécutable**, prêt à mettre sur GitHub. Il tr
 - **Un site de présentation** dans `docs/index.html`, pouvant être publié avec GitHub Pages.
 - **Une interface Gradio** pour importer des vidéos et récupérer les fichiers produits.
 
-## 2. Comment ajouter le projet sur GitHub
 
-1. Décompresse le ZIP, **ne mets pas seulement le ZIP sur GitHub**.
-2. Va sur `https://github.com/new`, et donne au dépôt le nom **`ai-video-to-audio-description`**.
-3. Choisis **Public**. Ne coche pas « Add a README », puisqu'il est fourni.
-4. Clique sur **« uploading an existing file »**.
-5. Glisse tous les fichiers **et sous-dossiers contenus dans le dossier décompressé** ; `README.md` doit se trouver à la racine du dépôt.
-6. Clique sur **Commit changes**. Si le navigateur ne conserve pas l'arborescence, utilise **GitHub Desktop** pour ajouter le dossier et publier le dépôt.
-
-Pour publier la démonstration sur un site public : **Settings → Pages → Build and deployment → Deploy from a branch → main → /docs → Save**. L'URL apparaîtra après le déploiement de GitHub Pages. Le site statique permet seulement de **visionner les démonstrations déjà calculées** : l'analyse de nouveaux fichiers nécessite de lancer Python ou Gradio sur un ordinateur.
-
-## 3. Faire tourner le projet
+## 2. Faire tourner le projet
 
 Sous Windows, installe Python 3.10+ et l'outil eSpeak (ou une voix système compatible `pyttsx3`). Ouvre un terminal dans le dossier du projet :
 
@@ -77,15 +67,3 @@ Reproduire les chiffres :
 video2audio benchmark --count 120 --seed 2026 --output-dir outputs/benchmark
 python -m pytest -q
 ```
-
-## 5. Formulation possible sur ton CV
-
-En français :
-
-> **Système de description audio de vidéos — Python, OpenCV, NLP, TTS** : Développement d'un pipeline vidéo → analyse visuelle → description textuelle → audio WAV, avec une démonstration interactive et un benchmark reproductible sur **120 vidéos synthétiques** ; intégration d'un modèle BLIP préentraîné en option.
-
-En anglais :
-
-> **Video-to-Audio Description System | Python, OpenCV, NLP, TTS** — Developed a video-to-text-to-speech pipeline with a browsable demo, automated tests, and reproducible processing of 120 **synthetic** video clips; integrated an optional pretrained BLIP captioning backend.
-
-Ne dis pas que tu as entraîné BLIP ou que le benchmark a porté sur des séquences vidéo naturelles : le dépôt ne le prouve pas.
