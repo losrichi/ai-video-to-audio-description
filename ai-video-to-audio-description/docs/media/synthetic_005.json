@@ -1,0 +1,115 @@
+{
+  "video": "/mnt/data/ai-video-to-audio-description/examples/videos/synthetic_005.mp4",
+  "backend": "shapes",
+  "narration": "A green square is visible on a neutral background. It moves to the left.",
+  "output_dir": "/mnt/data/ai-video-to-audio-description/examples/results/synthetic_005",
+  "predicted_shape": "square",
+  "predicted_color": "green",
+  "direction": "left",
+  "duration_seconds": 2.0,
+  "sample_count": 5,
+  "scene_change_score": 2.131,
+  "audio_generated": true,
+  "processing_seconds": 0.029,
+  "model_provenance": "classical OpenCV HSV/contours + rule-based captions",
+  "warnings": [
+    "Synthetic-shape-only baseline: not suitable for natural videos"
+  ],
+  "frame_observations": [
+    {
+      "timestamp": 0.0,
+      "caption": "green square",
+      "detections": [
+        {
+          "shape": "square",
+          "color": "green",
+          "center_x": 184,
+          "center_y": 93,
+          "area": 2114,
+          "bbox": [
+            162,
+            70,
+            47,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "caption": "green square",
+      "detections": [
+        {
+          "shape": "square",
+          "color": "green",
+          "center_x": 171,
+          "center_y": 92,
+          "area": 2114,
+          "bbox": [
+            149,
+            70,
+            47,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "caption": "green square",
+      "detections": [
+        {
+          "shape": "square",
+          "color": "green",
+          "center_x": 158,
+          "center_y": 92,
+          "area": 2116,
+          "bbox": [
+            136,
+            70,
+            47,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.4,
+      "caption": "green square",
+      "detections": [
+        {
+          "shape": "square",
+          "color": "green",
+          "center_x": 148,
+          "center_y": 92,
+          "area": 2116,
+          "bbox": [
+            126,
+            70,
+            47,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.9,
+      "caption": "green square",
+      "detections": [
+        {
+          "shape": "square",
+          "color": "green",
+          "center_x": 136,
+          "center_y": 92,
+          "area": 2116,
+          "bbox": [
+            113,
+            70,
+            47,
+            47
+          ]
+        }
+      ]
+    }
+  ]
+}

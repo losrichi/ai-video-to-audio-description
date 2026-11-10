@@ -1,0 +1,1 @@
+A blue triangle is visible on a neutral background. It moves upward.

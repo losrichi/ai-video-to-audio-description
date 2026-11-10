@@ -1,0 +1,115 @@
+{
+  "video": "/mnt/data/ai-video-to-audio-description/examples/videos/synthetic_000.mp4",
+  "backend": "shapes",
+  "narration": "A red circle is visible on a neutral background. It moves to the left.",
+  "output_dir": "/mnt/data/ai-video-to-audio-description/examples/results/synthetic_000",
+  "predicted_shape": "circle",
+  "predicted_color": "red",
+  "direction": "left",
+  "duration_seconds": 2.0,
+  "sample_count": 5,
+  "scene_change_score": 3.474,
+  "audio_generated": true,
+  "processing_seconds": 0.035,
+  "model_provenance": "classical OpenCV HSV/contours + rule-based captions",
+  "warnings": [
+    "Synthetic-shape-only baseline: not suitable for natural videos"
+  ],
+  "frame_observations": [
+    {
+      "timestamp": 0.0,
+      "caption": "red circle",
+      "detections": [
+        {
+          "shape": "circle",
+          "color": "red",
+          "center_x": 188,
+          "center_y": 126,
+          "area": 1968,
+          "bbox": [
+            164,
+            102,
+            51,
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "caption": "red circle",
+      "detections": [
+        {
+          "shape": "circle",
+          "color": "red",
+          "center_x": 170,
+          "center_y": 126,
+          "area": 1972,
+          "bbox": [
+            146,
+            102,
+            51,
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "caption": "red circle",
+      "detections": [
+        {
+          "shape": "circle",
+          "color": "red",
+          "center_x": 154,
+          "center_y": 126,
+          "area": 1972,
+          "bbox": [
+            129,
+            102,
+            51,
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.4,
+      "caption": "red circle",
+      "detections": [
+        {
+          "shape": "circle",
+          "color": "red",
+          "center_x": 140,
+          "center_y": 126,
+          "area": 1974,
+          "bbox": [
+            115,
+            102,
+            51,
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.9,
+      "caption": "red circle",
+      "detections": [
+        {
+          "shape": "circle",
+          "color": "red",
+          "center_x": 122,
+          "center_y": 126,
+          "area": 1972,
+          "bbox": [
+            97,
+            102,
+            51,
+            51
+          ]
+        }
+      ]
+    }
+  ]
+}

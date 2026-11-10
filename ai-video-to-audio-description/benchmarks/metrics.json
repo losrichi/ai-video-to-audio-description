@@ -1,0 +1,20 @@
+{
+  "dataset_type": "procedurally generated synthetic colored geometric shapes",
+  "benchmark_scope": "shape, color and dominant motion detection; NOT natural-video evaluation",
+  "seed": 2026,
+  "sampled_frames_per_video": 5,
+  "video_count": 120,
+  "audio_requested": true,
+  "audio_files_verified": 120,
+  "shape_accuracy": 1.0,
+  "color_accuracy": 1.0,
+  "direction_accuracy": 0.9833,
+  "average_processing_seconds": 0.019,
+  "elapsed_wall_seconds": 3.51,
+  "notes": [
+    "The test videos are programmatically generated and are not real-world footage.",
+    "Evaluation labels are never passed into inference.",
+    "Video/audio binaries are regenerated using the benchmark command and excluded from the ZIP.",
+    "Caption naturalness and speech intelligibility require human review; not measured here."
+  ]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 300" role="img" aria-label="Video2Audio pipeline architecture: video input, decode and frame sampling, either OpenCV shapes or pretrained BLIP, narration, offline TTS, result artifacts">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10192e"/><stop offset="1" stop-color="#192740"/></linearGradient>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#94a3b8"/></marker>
+  </defs>
+  <rect width="1040" height="300" fill="url(#bg)" rx="16"/>
+  <text x="36" y="41" fill="#edf2fb" font-family="Arial, sans-serif" font-weight="bold" font-size="22">VIDEO2AUDIO</text>
+  <text x="36" y="64" fill="#9fb2d4" font-family="Arial, sans-serif" font-size="12">FRAME SAMPLING → VISUAL ANALYSIS → TEXT → OFFLINE SPEECH</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="25" y="109" rx="12" width="145" height="98" fill="#223957" stroke="#5d7ea7"/>
+    <text x="97" y="150" font-size="17" font-weight="bold" fill="#fff">MP4 VIDEO</text>
+    <text x="97" y="174" font-size="12" fill="#b7cce7">Upload / CLI</text>
+    <rect x="205" y="109" rx="12" width="152" height="98" fill="#223957" stroke="#5d7ea7"/>
+    <text x="281" y="150" font-size="16" font-weight="bold" fill="#fff">OpenCV</text>
+    <text x="281" y="174" font-size="12" fill="#b7cce7">Decode + sample</text>
+    <rect x="394" y="84" rx="10" width="183" height="63" fill="#163e50" stroke="#3bb6bb"/>
+    <text x="486" y="110" font-size="14" font-weight="bold" fill="#e1ffff">Shapes baseline</text>
+    <text x="486" y="130" font-size="11" fill="#c5dce4">HSV + motion rules</text>
+    <rect x="394" y="165" rx="10" width="183" height="63" fill="#473450" stroke="#ae8de3"/>
+    <text x="486" y="191" font-size="14" font-weight="bold" fill="#fff">BLIP (optional)</text>
+    <text x="486" y="211" font-size="11" fill="#ddd0f1">Pretrained captioner</text>
+    <rect x="615" y="109" rx="12" width="155" height="98" fill="#223957" stroke="#5d7ea7"/>
+    <text x="692" y="150" font-size="16" font-weight="bold" fill="#fff">Narration</text>
+    <text x="692" y="174" font-size="12" fill="#b7cce7">Grounded NLP</text>
+    <rect x="805" y="109" rx="12" width="204" height="98" fill="#193e3d" stroke="#51c7ac"/>
+    <text x="907" y="150" font-size="16" font-weight="bold" fill="#fff">Audio + exports</text>
+    <text x="907" y="174" font-size="12" fill="#ccf6ec">WAV · JSON · SRT · JPG</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M171 158 H199"/><path d="M358 158 H374 V115 H388"/>
+    <path d="M374 158 V196 H388"/><path d="M578 115 H597 V158 H609"/>
+    <path d="M578 196 H597 V158"/><path d="M771 158 H799"/>
+  </g>
+  <text x="30" y="270" fill="#9fb2d4" font-family="Arial, sans-serif" font-size="12">Verified offline synthetic baseline · Real-world BLIP captioning is optional and not scored in this repository</text>
+</svg>

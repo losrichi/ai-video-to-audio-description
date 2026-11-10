@@ -1,0 +1,115 @@
+{
+  "video": "/mnt/data/ai-video-to-audio-description/examples/videos/synthetic_075.mp4",
+  "backend": "shapes",
+  "narration": "A blue rectangle is visible on a neutral background. It remains mostly stationary.",
+  "output_dir": "/mnt/data/ai-video-to-audio-description/examples/results/synthetic_075",
+  "predicted_shape": "rectangle",
+  "predicted_color": "blue",
+  "direction": "still",
+  "duration_seconds": 2.0,
+  "sample_count": 5,
+  "scene_change_score": 0.01,
+  "audio_generated": true,
+  "processing_seconds": 0.027,
+  "model_provenance": "classical OpenCV HSV/contours + rule-based captions",
+  "warnings": [
+    "Synthetic-shape-only baseline: not suitable for natural videos"
+  ],
+  "frame_observations": [
+    {
+      "timestamp": 0.0,
+      "caption": "blue rectangle",
+      "detections": [
+        {
+          "shape": "rectangle",
+          "color": "blue",
+          "center_x": 177,
+          "center_y": 121,
+          "area": 1680,
+          "bbox": [
+            147,
+            107,
+            61,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "caption": "blue rectangle",
+      "detections": [
+        {
+          "shape": "rectangle",
+          "color": "blue",
+          "center_x": 177,
+          "center_y": 121,
+          "area": 1680,
+          "bbox": [
+            147,
+            107,
+            61,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "caption": "blue rectangle",
+      "detections": [
+        {
+          "shape": "rectangle",
+          "color": "blue",
+          "center_x": 177,
+          "center_y": 121,
+          "area": 1680,
+          "bbox": [
+            147,
+            107,
+            61,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.4,
+      "caption": "blue rectangle",
+      "detections": [
+        {
+          "shape": "rectangle",
+          "color": "blue",
+          "center_x": 177,
+          "center_y": 121,
+          "area": 1680,
+          "bbox": [
+            147,
+            107,
+            61,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.9,
+      "caption": "blue rectangle",
+      "detections": [
+        {
+          "shape": "rectangle",
+          "color": "blue",
+          "center_x": 177,
+          "center_y": 121,
+          "area": 1680,
+          "bbox": [
+            147,
+            107,
+            61,
+            29
+          ]
+        }
+      ]
+    }
+  ]
+}

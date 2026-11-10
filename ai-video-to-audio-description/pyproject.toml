@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video2audio-describer"
+version = "1.0.0"
+description = "Reproducible video-to-speech descriptions using computer vision and an optional BLIP vision-language model"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Portfolio Project"}]
+dependencies = ["numpy>=1.24,<3", "opencv-python-headless>=4.8,<5", "Pillow>=10,<12"]
+
+[project.optional-dependencies]
+ai = ["torch>=2.1,<3", "transformers>=4.41,<5", "safetensors>=0.4"]
+ui = ["gradio>=5,<7"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+video2audio = "video2audio.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

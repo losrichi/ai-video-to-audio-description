@@ -1,0 +1,110 @@
+[
+  {
+    "label": {
+      "video_id": "synthetic_000",
+      "filename": "synthetic_000.mp4",
+      "seed": 1703704,
+      "shape": "circle",
+      "color": "red",
+      "direction": "left",
+      "fps": 10,
+      "frames": 20,
+      "synthetic": true
+    },
+    "result": {
+      "video": "/mnt/data/ai-video-to-audio-description/examples/videos/synthetic_000.mp4",
+      "backend": "shapes",
+      "narration": "A red circle is visible on a neutral background. It moves to the left.",
+      "output_dir": "/mnt/data/ai-video-to-audio-description/examples/results/synthetic_000",
+      "predicted_shape": "circle",
+      "predicted_color": "red",
+      "direction": "left",
+      "duration_seconds": 2.0,
+      "sample_count": 5,
+      "scene_change_score": 3.474,
+      "audio_generated": true,
+      "processing_seconds": 0.035
+    }
+  },
+  {
+    "label": {
+      "video_id": "synthetic_005",
+      "filename": "synthetic_005.mp4",
+      "seed": 4167,
+      "shape": "square",
+      "color": "green",
+      "direction": "left",
+      "fps": 10,
+      "frames": 20,
+      "synthetic": true
+    },
+    "result": {
+      "video": "/mnt/data/ai-video-to-audio-description/examples/videos/synthetic_005.mp4",
+      "backend": "shapes",
+      "narration": "A green square is visible on a neutral background. It moves to the left.",
+      "output_dir": "/mnt/data/ai-video-to-audio-description/examples/results/synthetic_005",
+      "predicted_shape": "square",
+      "predicted_color": "green",
+      "direction": "left",
+      "duration_seconds": 2.0,
+      "sample_count": 5,
+      "scene_change_score": 2.131,
+      "audio_generated": true,
+      "processing_seconds": 0.029
+    }
+  },
+  {
+    "label": {
+      "video_id": "synthetic_042",
+      "filename": "synthetic_042.mp4",
+      "seed": 115611,
+      "shape": "triangle",
+      "color": "blue",
+      "direction": "up",
+      "fps": 10,
+      "frames": 20,
+      "synthetic": true
+    },
+    "result": {
+      "video": "/mnt/data/ai-video-to-audio-description/examples/videos/synthetic_042.mp4",
+      "backend": "shapes",
+      "narration": "A blue triangle is visible on a neutral background. It moves upward.",
+      "output_dir": "/mnt/data/ai-video-to-audio-description/examples/results/synthetic_042",
+      "predicted_shape": "triangle",
+      "predicted_color": "blue",
+      "direction": "up",
+      "duration_seconds": 2.0,
+      "sample_count": 5,
+      "scene_change_score": 3.322,
+      "audio_generated": true,
+      "processing_seconds": 0.031
+    }
+  },
+  {
+    "label": {
+      "video_id": "synthetic_075",
+      "filename": "synthetic_075.mp4",
+      "seed": 726468,
+      "shape": "rectangle",
+      "color": "blue",
+      "direction": "still",
+      "fps": 10,
+      "frames": 20,
+      "synthetic": true
+    },
+    "result": {
+      "video": "/mnt/data/ai-video-to-audio-description/examples/videos/synthetic_075.mp4",
+      "backend": "shapes",
+      "narration": "A blue rectangle is visible on a neutral background. It remains mostly stationary.",
+      "output_dir": "/mnt/data/ai-video-to-audio-description/examples/results/synthetic_075",
+      "predicted_shape": "rectangle",
+      "predicted_color": "blue",
+      "direction": "still",
+      "duration_seconds": 2.0,
+      "sample_count": 5,
+      "scene_change_score": 0.01,
+      "audio_generated": true,
+      "processing_seconds": 0.027
+    }
+  }
+]

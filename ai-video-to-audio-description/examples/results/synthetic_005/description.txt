@@ -1,0 +1,1 @@
+A green square is visible on a neutral background. It moves to the left.

@@ -1,0 +1,121 @@
+video_id,synthetic,truth_shape,pred_shape,truth_color,pred_color,truth_direction,pred_direction,shape_correct,color_correct,direction_correct,audio_generated,processing_seconds,narration
+synthetic_000,True,circle,circle,red,red,left,left,1,1,1,1,0.021,A red circle is visible on a neutral background. It moves to the left.
+synthetic_001,True,square,square,red,red,left,left,1,1,1,1,0.018,A red square is visible on a neutral background. It moves to the left.
+synthetic_002,True,triangle,triangle,red,red,left,left,1,1,1,1,0.019,A red triangle is visible on a neutral background. It moves to the left.
+synthetic_003,True,rectangle,rectangle,red,red,left,left,1,1,1,1,0.019,A red rectangle is visible on a neutral background. It moves to the left.
+synthetic_004,True,circle,circle,green,green,left,left,1,1,1,1,0.019,A green circle is visible on a neutral background. It moves to the left.
+synthetic_005,True,square,square,green,green,left,left,1,1,1,1,0.019,A green square is visible on a neutral background. It moves to the left.
+synthetic_006,True,triangle,triangle,green,green,left,left,1,1,1,1,0.018,A green triangle is visible on a neutral background. It moves to the left.
+synthetic_007,True,rectangle,rectangle,green,green,left,left,1,1,1,1,0.017,A green rectangle is visible on a neutral background. It moves to the left.
+synthetic_008,True,circle,circle,blue,blue,left,left,1,1,1,1,0.02,A blue circle is visible on a neutral background. It moves to the left.
+synthetic_009,True,square,square,blue,blue,left,left,1,1,1,1,0.017,A blue square is visible on a neutral background. It moves to the left.
+synthetic_010,True,triangle,triangle,blue,blue,left,left,1,1,1,1,0.017,A blue triangle is visible on a neutral background. It moves to the left.
+synthetic_011,True,rectangle,rectangle,blue,blue,left,left,1,1,1,1,0.018,A blue rectangle is visible on a neutral background. It moves to the left.
+synthetic_012,True,circle,circle,yellow,yellow,left,left,1,1,1,1,0.017,A yellow circle is visible on a neutral background. It moves to the left.
+synthetic_013,True,square,square,yellow,yellow,left,left,1,1,1,1,0.045,A yellow square is visible on a neutral background. It moves to the left.
+synthetic_014,True,triangle,triangle,yellow,yellow,left,left,1,1,1,1,0.021,A yellow triangle is visible on a neutral background. It moves to the left.
+synthetic_015,True,rectangle,rectangle,yellow,yellow,left,left,1,1,1,1,0.018,A yellow rectangle is visible on a neutral background. It moves to the left.
+synthetic_016,True,circle,circle,red,red,right,right,1,1,1,1,0.019,A red circle is visible on a neutral background. It moves to the right.
+synthetic_017,True,square,square,red,red,right,right,1,1,1,1,0.016,A red square is visible on a neutral background. It moves to the right.
+synthetic_018,True,triangle,triangle,red,red,right,right,1,1,1,1,0.018,A red triangle is visible on a neutral background. It moves to the right.
+synthetic_019,True,rectangle,rectangle,red,red,right,right,1,1,1,1,0.018,A red rectangle is visible on a neutral background. It moves to the right.
+synthetic_020,True,circle,circle,green,green,right,right,1,1,1,1,0.021,A green circle is visible on a neutral background. It moves to the right.
+synthetic_021,True,square,square,green,green,right,right,1,1,1,1,0.019,A green square is visible on a neutral background. It moves to the right.
+synthetic_022,True,triangle,triangle,green,green,right,right,1,1,1,1,0.018,A green triangle is visible on a neutral background. It moves to the right.
+synthetic_023,True,rectangle,rectangle,green,green,right,right,1,1,1,1,0.019,A green rectangle is visible on a neutral background. It moves to the right.
+synthetic_024,True,circle,circle,blue,blue,right,right,1,1,1,1,0.017,A blue circle is visible on a neutral background. It moves to the right.
+synthetic_025,True,square,square,blue,blue,right,right,1,1,1,1,0.018,A blue square is visible on a neutral background. It moves to the right.
+synthetic_026,True,triangle,triangle,blue,blue,right,right,1,1,1,1,0.023,A blue triangle is visible on a neutral background. It moves to the right.
+synthetic_027,True,rectangle,rectangle,blue,blue,right,right,1,1,1,1,0.019,A blue rectangle is visible on a neutral background. It moves to the right.
+synthetic_028,True,circle,circle,yellow,yellow,right,right,1,1,1,1,0.021,A yellow circle is visible on a neutral background. It moves to the right.
+synthetic_029,True,square,square,yellow,yellow,right,right,1,1,1,1,0.022,A yellow square is visible on a neutral background. It moves to the right.
+synthetic_030,True,triangle,triangle,yellow,yellow,right,right,1,1,1,1,0.02,A yellow triangle is visible on a neutral background. It moves to the right.
+synthetic_031,True,rectangle,rectangle,yellow,yellow,right,right,1,1,1,1,0.024,A yellow rectangle is visible on a neutral background. It moves to the right.
+synthetic_032,True,circle,circle,red,red,up,up,1,1,1,1,0.017,A red circle is visible on a neutral background. It moves upward.
+synthetic_033,True,square,square,red,red,up,unknown,1,1,0,1,0.02,A red square is visible on a neutral background. Its movement could not be determined reliably.
+synthetic_034,True,triangle,triangle,red,red,up,up,1,1,1,1,0.019,A red triangle is visible on a neutral background. It moves upward.
+synthetic_035,True,rectangle,rectangle,red,red,up,up,1,1,1,1,0.019,A red rectangle is visible on a neutral background. It moves upward.
+synthetic_036,True,circle,circle,green,green,up,up,1,1,1,1,0.022,A green circle is visible on a neutral background. It moves upward.
+synthetic_037,True,square,square,green,green,up,up,1,1,1,1,0.02,A green square is visible on a neutral background. It moves upward.
+synthetic_038,True,triangle,triangle,green,green,up,up,1,1,1,1,0.018,A green triangle is visible on a neutral background. It moves upward.
+synthetic_039,True,rectangle,rectangle,green,green,up,up,1,1,1,1,0.019,A green rectangle is visible on a neutral background. It moves upward.
+synthetic_040,True,circle,circle,blue,blue,up,up,1,1,1,1,0.023,A blue circle is visible on a neutral background. It moves upward.
+synthetic_041,True,square,square,blue,blue,up,up,1,1,1,1,0.022,A blue square is visible on a neutral background. It moves upward.
+synthetic_042,True,triangle,triangle,blue,blue,up,up,1,1,1,1,0.019,A blue triangle is visible on a neutral background. It moves upward.
+synthetic_043,True,rectangle,rectangle,blue,blue,up,up,1,1,1,1,0.019,A blue rectangle is visible on a neutral background. It moves upward.
+synthetic_044,True,circle,circle,yellow,yellow,up,up,1,1,1,1,0.024,A yellow circle is visible on a neutral background. It moves upward.
+synthetic_045,True,square,square,yellow,yellow,up,up,1,1,1,1,0.019,A yellow square is visible on a neutral background. It moves upward.
+synthetic_046,True,triangle,triangle,yellow,yellow,up,up,1,1,1,1,0.018,A yellow triangle is visible on a neutral background. It moves upward.
+synthetic_047,True,rectangle,rectangle,yellow,yellow,up,up,1,1,1,1,0.017,A yellow rectangle is visible on a neutral background. It moves upward.
+synthetic_048,True,circle,circle,red,red,down,down,1,1,1,1,0.016,A red circle is visible on a neutral background. It moves downward.
+synthetic_049,True,square,square,red,red,down,down,1,1,1,1,0.018,A red square is visible on a neutral background. It moves downward.
+synthetic_050,True,triangle,triangle,red,red,down,down,1,1,1,1,0.016,A red triangle is visible on a neutral background. It moves downward.
+synthetic_051,True,rectangle,rectangle,red,red,down,down,1,1,1,1,0.016,A red rectangle is visible on a neutral background. It moves downward.
+synthetic_052,True,circle,circle,green,green,down,down,1,1,1,1,0.017,A green circle is visible on a neutral background. It moves downward.
+synthetic_053,True,square,square,green,green,down,down,1,1,1,1,0.017,A green square is visible on a neutral background. It moves downward.
+synthetic_054,True,triangle,triangle,green,green,down,down,1,1,1,1,0.017,A green triangle is visible on a neutral background. It moves downward.
+synthetic_055,True,rectangle,rectangle,green,green,down,down,1,1,1,1,0.017,A green rectangle is visible on a neutral background. It moves downward.
+synthetic_056,True,circle,circle,blue,blue,down,down,1,1,1,1,0.016,A blue circle is visible on a neutral background. It moves downward.
+synthetic_057,True,square,square,blue,blue,down,unknown,1,1,0,1,0.019,A blue square is visible on a neutral background. Its movement could not be determined reliably.
+synthetic_058,True,triangle,triangle,blue,blue,down,down,1,1,1,1,0.021,A blue triangle is visible on a neutral background. It moves downward.
+synthetic_059,True,rectangle,rectangle,blue,blue,down,down,1,1,1,1,0.017,A blue rectangle is visible on a neutral background. It moves downward.
+synthetic_060,True,circle,circle,yellow,yellow,down,down,1,1,1,1,0.017,A yellow circle is visible on a neutral background. It moves downward.
+synthetic_061,True,square,square,yellow,yellow,down,down,1,1,1,1,0.018,A yellow square is visible on a neutral background. It moves downward.
+synthetic_062,True,triangle,triangle,yellow,yellow,down,down,1,1,1,1,0.019,A yellow triangle is visible on a neutral background. It moves downward.
+synthetic_063,True,rectangle,rectangle,yellow,yellow,down,down,1,1,1,1,0.017,A yellow rectangle is visible on a neutral background. It moves downward.
+synthetic_064,True,circle,circle,red,red,still,still,1,1,1,1,0.019,A red circle is visible on a neutral background. It remains mostly stationary.
+synthetic_065,True,square,square,red,red,still,still,1,1,1,1,0.017,A red square is visible on a neutral background. It remains mostly stationary.
+synthetic_066,True,triangle,triangle,red,red,still,still,1,1,1,1,0.022,A red triangle is visible on a neutral background. It remains mostly stationary.
+synthetic_067,True,rectangle,rectangle,red,red,still,still,1,1,1,1,0.021,A red rectangle is visible on a neutral background. It remains mostly stationary.
+synthetic_068,True,circle,circle,green,green,still,still,1,1,1,1,0.023,A green circle is visible on a neutral background. It remains mostly stationary.
+synthetic_069,True,square,square,green,green,still,still,1,1,1,1,0.022,A green square is visible on a neutral background. It remains mostly stationary.
+synthetic_070,True,triangle,triangle,green,green,still,still,1,1,1,1,0.021,A green triangle is visible on a neutral background. It remains mostly stationary.
+synthetic_071,True,rectangle,rectangle,green,green,still,still,1,1,1,1,0.021,A green rectangle is visible on a neutral background. It remains mostly stationary.
+synthetic_072,True,circle,circle,blue,blue,still,still,1,1,1,1,0.018,A blue circle is visible on a neutral background. It remains mostly stationary.
+synthetic_073,True,square,square,blue,blue,still,still,1,1,1,1,0.017,A blue square is visible on a neutral background. It remains mostly stationary.
+synthetic_074,True,triangle,triangle,blue,blue,still,still,1,1,1,1,0.019,A blue triangle is visible on a neutral background. It remains mostly stationary.
+synthetic_075,True,rectangle,rectangle,blue,blue,still,still,1,1,1,1,0.02,A blue rectangle is visible on a neutral background. It remains mostly stationary.
+synthetic_076,True,circle,circle,yellow,yellow,still,still,1,1,1,1,0.019,A yellow circle is visible on a neutral background. It remains mostly stationary.
+synthetic_077,True,square,square,yellow,yellow,still,still,1,1,1,1,0.017,A yellow square is visible on a neutral background. It remains mostly stationary.
+synthetic_078,True,triangle,triangle,yellow,yellow,still,still,1,1,1,1,0.017,A yellow triangle is visible on a neutral background. It remains mostly stationary.
+synthetic_079,True,rectangle,rectangle,yellow,yellow,still,still,1,1,1,1,0.016,A yellow rectangle is visible on a neutral background. It remains mostly stationary.
+synthetic_080,True,circle,circle,red,red,left,left,1,1,1,1,0.02,A red circle is visible on a neutral background. It moves to the left.
+synthetic_081,True,square,square,red,red,left,left,1,1,1,1,0.016,A red square is visible on a neutral background. It moves to the left.
+synthetic_082,True,triangle,triangle,red,red,left,left,1,1,1,1,0.02,A red triangle is visible on a neutral background. It moves to the left.
+synthetic_083,True,rectangle,rectangle,red,red,left,left,1,1,1,1,0.017,A red rectangle is visible on a neutral background. It moves to the left.
+synthetic_084,True,circle,circle,green,green,left,left,1,1,1,1,0.015,A green circle is visible on a neutral background. It moves to the left.
+synthetic_085,True,square,square,green,green,left,left,1,1,1,1,0.017,A green square is visible on a neutral background. It moves to the left.
+synthetic_086,True,triangle,triangle,green,green,left,left,1,1,1,1,0.018,A green triangle is visible on a neutral background. It moves to the left.
+synthetic_087,True,rectangle,rectangle,green,green,left,left,1,1,1,1,0.015,A green rectangle is visible on a neutral background. It moves to the left.
+synthetic_088,True,circle,circle,blue,blue,left,left,1,1,1,1,0.024,A blue circle is visible on a neutral background. It moves to the left.
+synthetic_089,True,square,square,blue,blue,left,left,1,1,1,1,0.023,A blue square is visible on a neutral background. It moves to the left.
+synthetic_090,True,triangle,triangle,blue,blue,left,left,1,1,1,1,0.02,A blue triangle is visible on a neutral background. It moves to the left.
+synthetic_091,True,rectangle,rectangle,blue,blue,left,left,1,1,1,1,0.023,A blue rectangle is visible on a neutral background. It moves to the left.
+synthetic_092,True,circle,circle,yellow,yellow,left,left,1,1,1,1,0.02,A yellow circle is visible on a neutral background. It moves to the left.
+synthetic_093,True,square,square,yellow,yellow,left,left,1,1,1,1,0.018,A yellow square is visible on a neutral background. It moves to the left.
+synthetic_094,True,triangle,triangle,yellow,yellow,left,left,1,1,1,1,0.017,A yellow triangle is visible on a neutral background. It moves to the left.
+synthetic_095,True,rectangle,rectangle,yellow,yellow,left,left,1,1,1,1,0.016,A yellow rectangle is visible on a neutral background. It moves to the left.
+synthetic_096,True,circle,circle,red,red,right,right,1,1,1,1,0.016,A red circle is visible on a neutral background. It moves to the right.
+synthetic_097,True,square,square,red,red,right,right,1,1,1,1,0.015,A red square is visible on a neutral background. It moves to the right.
+synthetic_098,True,triangle,triangle,red,red,right,right,1,1,1,1,0.021,A red triangle is visible on a neutral background. It moves to the right.
+synthetic_099,True,rectangle,rectangle,red,red,right,right,1,1,1,1,0.017,A red rectangle is visible on a neutral background. It moves to the right.
+synthetic_100,True,circle,circle,green,green,right,right,1,1,1,1,0.017,A green circle is visible on a neutral background. It moves to the right.
+synthetic_101,True,square,square,green,green,right,right,1,1,1,1,0.016,A green square is visible on a neutral background. It moves to the right.
+synthetic_102,True,triangle,triangle,green,green,right,right,1,1,1,1,0.017,A green triangle is visible on a neutral background. It moves to the right.
+synthetic_103,True,rectangle,rectangle,green,green,right,right,1,1,1,1,0.016,A green rectangle is visible on a neutral background. It moves to the right.
+synthetic_104,True,circle,circle,blue,blue,right,right,1,1,1,1,0.016,A blue circle is visible on a neutral background. It moves to the right.
+synthetic_105,True,square,square,blue,blue,right,right,1,1,1,1,0.016,A blue square is visible on a neutral background. It moves to the right.
+synthetic_106,True,triangle,triangle,blue,blue,right,right,1,1,1,1,0.017,A blue triangle is visible on a neutral background. It moves to the right.
+synthetic_107,True,rectangle,rectangle,blue,blue,right,right,1,1,1,1,0.017,A blue rectangle is visible on a neutral background. It moves to the right.
+synthetic_108,True,circle,circle,yellow,yellow,right,right,1,1,1,1,0.016,A yellow circle is visible on a neutral background. It moves to the right.
+synthetic_109,True,square,square,yellow,yellow,right,right,1,1,1,1,0.016,A yellow square is visible on a neutral background. It moves to the right.
+synthetic_110,True,triangle,triangle,yellow,yellow,right,right,1,1,1,1,0.018,A yellow triangle is visible on a neutral background. It moves to the right.
+synthetic_111,True,rectangle,rectangle,yellow,yellow,right,right,1,1,1,1,0.017,A yellow rectangle is visible on a neutral background. It moves to the right.
+synthetic_112,True,circle,circle,red,red,up,up,1,1,1,1,0.018,A red circle is visible on a neutral background. It moves upward.
+synthetic_113,True,square,square,red,red,up,up,1,1,1,1,0.018,A red square is visible on a neutral background. It moves upward.
+synthetic_114,True,triangle,triangle,red,red,up,up,1,1,1,1,0.017,A red triangle is visible on a neutral background. It moves upward.
+synthetic_115,True,rectangle,rectangle,red,red,up,up,1,1,1,1,0.018,A red rectangle is visible on a neutral background. It moves upward.
+synthetic_116,True,circle,circle,green,green,up,up,1,1,1,1,0.016,A green circle is visible on a neutral background. It moves upward.
+synthetic_117,True,square,square,green,green,up,up,1,1,1,1,0.017,A green square is visible on a neutral background. It moves upward.
+synthetic_118,True,triangle,triangle,green,green,up,up,1,1,1,1,0.019,A green triangle is visible on a neutral background. It moves upward.
+synthetic_119,True,rectangle,rectangle,green,green,up,up,1,1,1,1,0.018,A green rectangle is visible on a neutral background. It moves upward.

@@ -1,0 +1,115 @@
+{
+  "video": "/mnt/data/ai-video-to-audio-description/examples/videos/synthetic_042.mp4",
+  "backend": "shapes",
+  "narration": "A blue triangle is visible on a neutral background. It moves upward.",
+  "output_dir": "/mnt/data/ai-video-to-audio-description/examples/results/synthetic_042",
+  "predicted_shape": "triangle",
+  "predicted_color": "blue",
+  "direction": "up",
+  "duration_seconds": 2.0,
+  "sample_count": 5,
+  "scene_change_score": 3.322,
+  "audio_generated": true,
+  "processing_seconds": 0.031,
+  "model_provenance": "classical OpenCV HSV/contours + rule-based captions",
+  "warnings": [
+    "Synthetic-shape-only baseline: not suitable for natural videos"
+  ],
+  "frame_observations": [
+    {
+      "timestamp": 0.0,
+      "caption": "blue triangle",
+      "detections": [
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "center_x": 109,
+          "center_y": 102,
+          "area": 1330,
+          "bbox": [
+            83,
+            72,
+            53,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "caption": "blue triangle",
+      "detections": [
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "center_x": 109,
+          "center_y": 85,
+          "area": 1331,
+          "bbox": [
+            83,
+            54,
+            53,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "caption": "blue triangle",
+      "detections": [
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "center_x": 109,
+          "center_y": 69,
+          "area": 1333,
+          "bbox": [
+            83,
+            38,
+            53,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.4,
+      "caption": "blue triangle",
+      "detections": [
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "center_x": 109,
+          "center_y": 56,
+          "area": 1326,
+          "bbox": [
+            83,
+            26,
+            53,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": 1.9,
+      "caption": "blue triangle",
+      "detections": [
+        {
+          "shape": "triangle",
+          "color": "blue",
+          "center_x": 109,
+          "center_y": 39,
+          "area": 1332,
+          "bbox": [
+            83,
+            8,
+            53,
+            49
+          ]
+        }
+      ]
+    }
+  ]
+}
